@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOSisVen", "DAOSisVen\DAOSisVen.csproj", "{BFD513A6-4501-4BB0-8940-1AF9E20F0FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinalINCOSWPF", "ProyectoFinalINCOSWPF\ProyectoFinalINCOSWPF.csproj", "{84E82404-B1CE-4F8C-97CA-007DCE6B68BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD513A6-4501-4BB0-8940-1AF9E20F0FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD513A6-4501-4BB0-8940-1AF9E20F0FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD513A6-4501-4BB0-8940-1AF9E20F0FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD513A6-4501-4BB0-8940-1AF9E20F0FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E82404-B1CE-4F8C-97CA-007DCE6B68BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E82404-B1CE-4F8C-97CA-007DCE6B68BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E82404-B1CE-4F8C-97CA-007DCE6B68BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E82404-B1CE-4F8C-97CA-007DCE6B68BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {672EE290-2934-474E-B7AE-128882B87DFF}
+	EndGlobalSection
+EndGlobal
