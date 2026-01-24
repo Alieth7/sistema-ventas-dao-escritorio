@@ -1,0 +1,60 @@
+﻿<Window x:Class="ProyectoFinalINCOSWPF.winlogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalINCOSWPF"
+        mc:Ignorable="d"
+           xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+TextElement.FontWeight="Regular"
+TextElement.FontSize="13"
+TextOptions.TextFormattingMode="Ideal"
+TextOptions.TextRenderingMode="Auto"
+Background="{DynamicResource MaterialDesignPaper}"
+FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="winlogin" Height="420" Width="400" BorderBrush="#795548" BorderThickness="2" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <StackPanel>
+            <!--color primario-->
+            <Grid Height="30" Background="#795548">
+
+                
+                    <Button x:Name="btn_close" Width="35" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right" Foreground="White" Padding="0" Click="btn_close_Click"
+
+>
+                        <materialDesign:PackIcon Kind="Close" Width="30" Height="30"/>
+                    </Button>
+                
+
+            </Grid>
+            <materialDesign:ColorZone Height="30" Background="#795548" Margin="0 0 0 30">
+                <Label Content="BIENVENIDO" FontSize="16" Foreground="White" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="3"/>
+            </materialDesign:ColorZone>
+
+            
+            <StackPanel Orientation="Horizontal" Margin="20">
+                <materialDesign:PackIcon Kind="User" Width="35" Height="35" Foreground="#795548"/>
+                <TextBox x:Name="txtNombreUsuario" Width="300" Margin="5" materialDesign:HintAssist.Background="BurlyWood" materialDesign:HintAssist.Hint="Nombre de usuario" materialDesign:HintAssist.IsFloating="True" KeyDown="txtNombreUsuario_KeyDown"/>
+            </StackPanel>
+            
+            
+            <StackPanel Orientation="Horizontal" Margin="20">
+                <materialDesign:PackIcon Kind="Lock" Width="32" Height="32" Foreground="#795548" VerticalAlignment="Center"/>
+                <PasswordBox x:Name="txtContrasenia" Width="300" Margin="5" materialDesign:HintAssist.Background="BurlyWood" materialDesign:HintAssist.Hint="Ingrese su contraseña" materialDesign:HintAssist.IsFloating="True" KeyDown="txtContrasenia_KeyDown"/>
+                
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="20" HorizontalAlignment="Center">
+                <Button x:Name="btnIngresar" Margin="10 0 0 10" Width="90" Content="Ingresar" Click="btnIngresar_Click"/>
+
+                <Button x:Name="btnSalir" Margin="30 0 0 10" Width="90" Content="Salir" Cursor="Hand" Click="btn_close_Click"/>
+            </StackPanel>
+
+            
+            <materialDesign:Card Height="35" Margin="20" HorizontalAlignment="Center">
+                <Label x:Name="lblInfo" Content="Por favor, por seguridad NO revele su contraseña" Foreground="Gray"/>
+            </materialDesign:Card>
+        </StackPanel>
+    </Grid>
+</Window>
