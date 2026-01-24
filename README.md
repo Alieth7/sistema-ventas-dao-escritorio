@@ -1,4 +1,3 @@
-
 # [Sistema de ventas para micro empresas]
 
 Aplicación de escritorio desarrollada en **C#** bajo el ecosistema **.NET Framework 4.7.2**, centrada en la gestión de datos y optimizar el control de stock en pequeñas empresas.
@@ -16,21 +15,27 @@ Aplicación de escritorio desarrollada en **C#** bajo el ecosistema **.NET Frame
 *  ** IDE:** Visual Studio 2022
 
 ## Capacidades Técnicas y Diseño
+*   **CRUD Completo:** Gestión de entidades con validaciones de entrada de datos.
 *   **UI/UX Moderna:** Implementación de **Material Design Colors & Themes** para una interfaz limpia, intuitiva y amigable.
 *   **Lógica de Datos:** Conexión a base de datos MySQL para la persistencia de información.
 *   **Comportamientos Avanzados:** Uso de `Microsoft.Xaml.Behaviors` para separar la lógica de la vista (siguiendo principios cercanos a MVVM).
-*   **Arquitectura:** Organización de código enfocada en la reutilización de componentes y mantenibilidad.
+*   **Arquitectura:** Organización de código enfocada en la reutilización de componentes, mantenibilidad y separación de responsabilidades mediante capas (UI, Lógica, Datos).
 
 ## Diseño de Base de Datos
 El diseño y modelado de datos fue realizado íntegramente desde cero:
 
+*   Modelado relacional con llaves primarias y foráneas para asegurar la integridad.
+*   Uso de Procedimientos Almacenados (Stored Procedures) para optimizar las consultas.
 *   Estructura relacional diseñada en **MySQL Workbench**.
+*   **Acceso a Datos:** ADO.NET utilizando el patrón **DAO (Data Access Object)** para una separación clara entre la base de datos y la lógica de negocio.
 
 ## Estado del Proyecto: [70%] - En progreso
 Este repositorio es una muestra de mis habilidades en el desarrollo de aplicaciones de escritorio. Actualmente me encuentro trabajando en:
 *   [ ] Optimización de las consultas a la base de datos.
 *   [ ] Finalización de los módulos de reportes descargables.
-*   [ ] Mejora de la experiencia de usuario (UX).
+*   [ ] Mejora de la interfaz gráfica (UI/UX).
 
 Créditos
 Lógica y Desarrollo: Alieth7.
+
+> **Nota:** Este proyecto es parte de mi portafolio y no está destinado a su distribución o instalación por terceros en esta fase.
